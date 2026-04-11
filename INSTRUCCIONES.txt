@@ -1,0 +1,71 @@
+===========================================================
+   INTERFAZ DE DIAGNÓSTICO PS3 SYSCON - POR [Tu Canal]
+===========================================================
+
+Esta herramienta ha sido diseñada para facilitar la lectura de errores
+del Syscon en consolas PlayStation 3 (Slim y Super Slim), permitiendo
+identificar fallas de hardware mediante la comunicación UART.
+
+-----------------------------------------------------------
+1. REQUISITOS PREVIOS
+-----------------------------------------------------------
+Antes de usar la interfaz, asegúrate de tener lo siguiente:
+
+A. HARDWARE:
+   - Adaptador USB a TTL (FT232RL, CH340, CP2102, etc.).
+   - Cables soldados a los puntos TX, RX y GND de la placa PS3.
+   - La consola debe estar conectada a la corriente (Standby).
+
+B. SOFTWARE:
+   - Python instalado (Versión 3.10 o superior recomendada).
+   - IMPORTANTE: Al instalar Python, marca la casilla que dice:
+     "Add Python to PATH".
+
+-----------------------------------------------------------
+2. INSTALACIÓN DE LIBRERÍAS (FUNDAMENTAL)
+-----------------------------------------------------------
+Para que los botones y la conexión UART funcionen, debes instalar
+las dependencias. Sigue estos pasos:
+
+1. Abre la carpeta del proyecto.
+2. Haz doble clic en el archivo: "Instalar_Dependencias.bat"
+3. Espera a que termine el proceso y cierra la ventana.
+
+(Si prefieres hacerlo manual, abre una terminal en esta carpeta y escribe: 
+pip install -r requirements.txt)
+
+-----------------------------------------------------------
+3. CÓMO EJECUTAR LA INTERFAZ
+-----------------------------------------------------------
+Para abrir el programa sin ventanas de consola molestas:
+- Haz doble clic en: "ABRIR_PORTADA.bat"
+
+Si el programa no abre o se cierra solo, usa el archivo:
+- "Modo_Debug.bat" (Esto te mostrará si falta alguna librería o hay un error).
+
+-----------------------------------------------------------
+4. GUÍA RÁPIDA DE USO
+-----------------------------------------------------------
+1. Conecta tu adaptador UART al PC.
+2. Abre la interfaz.
+3. En la sección "Configuración", selecciona el puerto COM de tu adaptador.
+4. Haz clic en "Conectar".
+5. Si las conexiones son correctas, empezarás a recibir los logs del Syscon.
+
+-----------------------------------------------------------
+5. SOLUCIÓN DE PROBLEMAS
+-----------------------------------------------------------
+- ERROR DE PUERTO: Asegúrate de que ninguna otra aplicación (como Putty 
+  o el Monitor Serie de Arduino) esté usando el puerto COM.
+- NO RECIBE DATOS: Revisa que TX de la PS3 vaya al RX del adaptador y 
+  viceversa (Conexión Cruzada).
+- LA VENTANA NO ABRE: Asegúrate de haber ejecutado el instalador de 
+  dependencias del punto 2.
+-----------------------------------------------------------------
+----------------------------------------------------------------
+por feedback envíame un mail a hardwaresolutionsarg@gmail.com
+
+-----------------------------------------------------------
+Proyecto compartido para la comunidad de técnicos y entusiastas.
+¡Gracias por descargar y no olvides suscribirte al canal!
+===========================================================
