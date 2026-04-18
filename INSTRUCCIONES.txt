@@ -1,9 +1,9 @@
 ===========================================================
-   INTERFAZ DE DIAGNÓSTICO PS3 SYSCON - POR [Tu Canal]
+   INTERFAZ DE DIAGNÓSTICO PS3 SYSCON - POR Dastier
 ===========================================================
 
 Esta herramienta ha sido diseñada para facilitar la lectura de errores
-del Syscon en consolas PlayStation 3 (Slim y Super Slim), permitiendo
+del Syscon en consolas PlayStation 3 (Fat, Slim y Super Slim), permitiendo
 identificar fallas de hardware mediante la comunicación UART.
 
 -----------------------------------------------------------
